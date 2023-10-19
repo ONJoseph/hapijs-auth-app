@@ -1,0 +1,74 @@
+/* App.css */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the entire page */
+body {
+  background-color: #f0f0f0; /* Set a background color */
+  font-family: Arial, sans-serif; /* Choose a font */
+}
+
+/* Center the content */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Make the app fill the viewport height */
+  background-color: #ffffff; /* Set a background color for the app */
+  padding: 20px; /* Add some padding around the content */
+  text-align: center;
+}
+
+/* Style headings */
+h1 {
+  font-size: 24px; /* Increase the font size for headings */
+  margin-bottom: 20px; /* Add spacing below headings */
+  color: #333; /* Set a text color */
+}
+
+/* Style input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style buttons */
+button {
+  background-color: #007bff; /* Set a primary button color */
+  color: #fff; /* Set text color for buttons */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Add hover effect to buttons */
+button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Style error messages */
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Style links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Add hover effect to links */
+a:hover {
+  text-decoration: underline;
+}
